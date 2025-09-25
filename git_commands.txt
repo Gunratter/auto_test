@@ -1,0 +1,7 @@
+rm -r (название файла)
+
+git status
+
+git commit
+
+git push
