@@ -1,0 +1,6 @@
+Get-ExecutionPolicy
+Get-AuthenticodeSignature путь_к_файлу.ps1
+Set-ExecutionPolicy политика_выполнения  \\   Set-ExecutionPolicy RemoteSigned 
+Set-ExecutionPolicy Unrestricted -Scope Process  #изменение политики для текущего сеанса PowerShell
+Get-ExecutionPolicy -List  #другие варианты изменения политики
+Set-ExecutionPolicy Default  #сброс политики до дефолтных (изначальных) установок
